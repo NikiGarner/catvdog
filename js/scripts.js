@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  $("button#change").click(function() {
+    $("body").addClass("black-background");
+});
   $("button#Cat_Says").click(function() {
     $("ul#Cat").prepend("<li>Mew</li>");
     $("ul#Dog").prepend("<li>Arf</li>");
